@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Externel Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Font   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="aarohi" class="navbar navbar-expand-lg navbar-dark  ">
+        <div class="container">
+            <a class="navbar-brand" href="main.html"><img src="img/Aarohi Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Aarohi</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About Aarohi
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="about.html#about">About Us</a></li>
+                          <li><a class="dropdown-item" href="about.html#insights">Aarohi Insights</a></li>
+                          <li><a class="dropdown-item" href="about.html#profile">Company Profile</a></li>
+                          <!-- <li><a class="dropdown-item" href="about.html#team">Our Team</a></li> -->
+                          <li><a class="dropdown-item" href="about.html#life">Life at Aarohi</a></li>
+                        </ul>
+                      </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="cloud.html">Cloud Services & Solutions</a></li>
+                          <li><a class="dropdown-item" href="iam.html">Identity & Privilege Management</a></li>
+                          <li><a class="dropdown-item" href="aiml.html">AI, ML and Data Science </a></li>
+                          <li><a class="dropdown-item" href="cybersecurity.html">Manage Cybersecurity</a></li>
+                          <li><a class="dropdown-item" href="sap.html">SAP-GRC & Governance</a></li>
+                          <li><a class="dropdown-item" href="data.html">IT & Data-Centre Management </a></li>
+                          <li><a class="dropdown-item" href="training.html">IT Consulting & Training</a></li>
+                          <li><a class="dropdown-item" href="devlopment.html">Software Devlopment</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html#contact">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="banner mb-5">
+        <div class="banner-body">
+               <div class="container">
+                   <div class="banner-text">
+                    <div class="upper-head ">
+                        <h2 class="about-head mt-3" data-aos="fade-up" data-aos-duration="600">About Aarohi</h2>
+                    </div>
+                   </div>
+               </div>
+        </div>
+   </section>
+
+    <div class="container abt-page">
+        <!-- About Aarohi  -->
+        <section class="aarohi mb-5" id="about">
+            
+            <div class="about-us mb-5 " >
+                <div class="row" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="col-md-6">
+                        <h5>About Us</h5>
+                        <p>
+                            Aarohi Infotech is an IT consulting and system integration company with the capability to
+                            deliver end-to-end IT infrastructure solutions and services. At Aarohi, our focus is to
+                            create
+                            value for our customers by applying our deep industry experience, technical expertise, and
+                            business intelligence. Every day, we strive to become a trusted technology solutions advisor
+                            who
+                            understands our customers’ needs – and identifies, builds, integrates, and manages superior
+                            technology solutions that address those needs. So, whether you need help with your Data
+                            Center
+                            re-design, network upgradation, application modernization, cloud migration, cyber security
+                            posture, establishing a DevOps practice – Aarohi has the expertise to make your project a
+                            success. We have Architects of each domain with average 12+ years of expertise.
+                        </p>
+                        <p>
+                            We are a global company in the market, offering a robust selection of services such as
+                            Cloud,
+                            Identity and Access Management, Managed Services, IT Consulting, Automation and SAP GRC and
+                            Maintenance.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="abt-img ">
+                            <img  src="https://img.freepik.com/free-photo/aerial-view-business-team_53876-124515.jpg?t=st=1711505550~exp=1711509150~hmac=679ad9774212627ae7100ee7b4f7749e812f9535b5da51812abaebabf3138bd9&w=996"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+
+
+                        <p>
+                            Today, we provide a broad portfolio of solutions, combining innovative consulting,
+                            marketing,
+                            mobility, personalized campaigns, and artificial intelligence services with traditional
+                            solutions
+                            such as service desk, field service, and outsourcing (BPO). We maintain our excellence by
+                            investing
+                            in technological innovations, the best partnerships, and the hiring of highly trained
+                            professionals.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="insights mb-5 " id="insights" data-aos="fade-up" data-aos-duration="1700">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="abt-img">
+                            <img src="https://img.freepik.com/free-photo/revenue-operations-collage_23-2150847854.jpg?t=st=1711508102~exp=1711511702~hmac=8669205c9d924d98d8241f677efda99642da0565ff5705e75c30e7c13163bbb1&w=900"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="mt-3">Aarohi Insights</h5>
+                        <p>
+                            Aarohi Infotech is an IT Consulting and Managed Services company with the capability to
+                            deliver end to end IT
+                            Solutions and Services. At Aarohi, our main focus to understand the customer IT requirements
+                            with help of our
+                            experienced IT staffs. We strive to become a trusted technology solutions Advisor who
+                            understand our customer value
+                            and their needs cesses of achieving hence improvements​
+                        </p>
+
+                        <p>
+                            Business-to-business and enterprise information technology (IT) capabilities are the main
+                            areas of concentration for
+                            Aarohi Infotech. The transformation of Cloud, Identity and Access Management, Data Centre’s
+                            and Migrations are the
+                            main solution areas on which insight concentrates.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="profile mb-5 " id="profile" data-aos="fade-up" data-aos-duration="1900">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Company Profile</h5>
+                        <p>
+                            At Aarohi Infotech, we put a lot of effort into pushing the envelope by creating B2B
+                            Customers, understanding their
+                            IT Infrastructure requirements and helps them to perfectly complement the operations as per
+                            IT standards.
+                            Aarohi InfoTech is a leading IT Consulting and Managed Services Provider company who helps
+                            their enterprises client
+                            to compete across the world.
+                        </p>
+
+                        <p>
+
+                            We are committed to providing quality IT Services​
+                            Provided by experts to help challenge critical activities​
+                            Really know the true needs and expectations of customers​
+                            Processes of achieving the excellence improvements​
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="abt-img">
+                            <img src="https://img.freepik.com/free-psd/silver-letters-glass-building-facade_145275-162.jpg?t=st=1711508247~exp=1711511847~hmac=05eac927a75c0ee7f1c2fb5ce43a57fff18d54130cf27558da49ad0c18439db4&w=826"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="ourteam mb-3 " id="team" data-aos="fade-up" data-aos-duration="2000">
+              
+                <div class="row">
+                    <h5>Our Team</h5>
+                </div>
+                <div class="row">
+                    <div class="team owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="team-card">
+                                <img src="https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?t=st=1711510456~exp=1711514056~hmac=251ca5b378f875cdd0bce4c8c1f4f86398943acb3c78e384f9d27efb8600e7dd&w=740" class="card-img-top" alt="...">
+                                <div class=" mt-3">
+                                  <h5>David Miller</h5>
+                                  <p>Backend Engineer</p>
+                                </div>
+                              </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!-- Life at Aarohi -->
+
+        <section class="life-at" id="life">
+            
+            <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-md-12">
+                    <h4>Life at Aarohi</h4>
+                    <p>
+                        At Aarohi, we know that growth begins at the intersection of problem-solving and learning. And
+                        to
+                        achieve that, we need passionate people who apply analytical thought to deliver the best
+                        outcomes,
+                        who take ownership of what they do and the impact it creates, who can bring their enthusiasm for
+                        growth to Aarohi, and eagerly go beyond possible with us.
+                    </p>
+
+
+                    <h5>Our culture starts with you</h5>
+                    <p>Our story has evolved as those who joined us brought in their own passion and persistence - each
+                        an entrepreneur, but building the larger honeycomb to support the hive that is Aarohi today.
+                    </p>
+
+
+
+                    <h5>
+                        Our story has evolved as those who joined us brought in their own passion and persistence - each
+                        an entrepreneur, but building the larger honeycomb to support the hive that is Aarohi today.
+                    </h5>
+                    <p>
+                        It informs the way we support communities and helps our people show up as their best selves. As
+                        an equal opportunity employer, we’re committed to building a diverse and inclusive workforce. We
+                        believe that different perspectives help us tackle challenges innovatively.
+
+                    </p>
+                    <p>
+                        We believe in giving new voices a way to be heard and new ideas a place to thrive, and we make
+                        it a priority all the way to the top. We emphasize on giving opportunities to all our people and
+                        encouraging each one to be leaders and entrepreneurs in their work. It’s not just the right
+                        thing to do; it helps us all win.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="abt-img">
+                        <img src="img/lifeat.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <ul class="mt-3">
+                        <h5>Our learning pathways</h5>
+                        <li>Trainings and Certification</li>
+                        <li>Aarohi Academy for Learning & Leadership (TALL)</li>
+                        <li>You learn, we pay</li>
+                    </ul>
+                    <ul>
+                        <h5>Our benefits</h5>
+                        <li>Comprehensive health plans</li>
+                        <li>Family Support</li>
+                        <li>Flexible work timing</li>
+                        <li>1-to-1 Wellness programs</li>
+                        <li>Easing into the weekend – no calls on Friday afternoons</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+
+
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <h4>Aarohi Infotech</h4>
+            <p><i class="fa-solid  text-white fa-location-dot" ></i> Sector 65, Faridabad, Haryana 121004, India</p>
+            <p><i class="fa-solid text-white fa-phone"></i> +91 8700307203 </p>
+            &copy; 2024 Your Website
+
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Owl caraousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
