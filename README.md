@@ -1,1 +1,1 @@
-www.aarohitech.com (This is the link of Website made by me ✌️)
+www.aarohitech.com (This is the link of static Website made by me ✌️)
